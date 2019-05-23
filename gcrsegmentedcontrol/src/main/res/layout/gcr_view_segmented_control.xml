@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/gcr_first_segmented_control_button_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/gcr_selector_rounded_corner_left_button_state"
+                android:textAllCaps="false"
+                android:textColor="@color/gcr_white"/>
+        <Button
+                android:id="@+id/gcr_second_segmented_control_button_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/gcr_selector_middle_button_state"
+                android:textAllCaps="false"
+                android:textColor="@color/gcr_blue_dark"/>
+        <Button
+                android:id="@+id/gcr_third_segmented_control_button_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/gcr_selector_middle_button_state"
+                android:textAllCaps="false"
+                android:textColor="@color/gcr_blue_dark"/>
+        <Button
+                android:id="@+id/gcr_fourth_segmented_control_button_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/gcr_selector_rounded_corner_right_button_state"
+                android:textAllCaps="false"
+                android:textColor="@color/gcr_blue_dark"/>
+
+    </LinearLayout>
+
+</merge>

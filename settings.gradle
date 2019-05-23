@@ -1,0 +1,4 @@
+include ':app'
+
+include ':gcrsegmentedcontrol'
+project(':gcrsegmentedcontrol').projectDir = new File(settingsDir, './gcrsegmentedcontrol')

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">gcrsegmentedcontrol</string>
+
+    <string name="gcr_first_segmented_button_text">First button</string>
+    <string name="gcr_second_segmented_button_text">Second button</string>
+    <string name="gcr_third_segmented_button_text">Third button</string>
+    <string name="gcr_fourth_segmented_button_text">Fourth button</string>
+</resources>
